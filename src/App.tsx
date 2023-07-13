@@ -66,6 +66,35 @@ function App() {
           color='inherit'
         />
 
+        <Container
+          maxWidth='lg'
+          sx={{ height: '200px', position: 'absolute', top: 100, left: 150 }}
+        >
+          <Stack direction='row' alignItems='center' spacing={2}>
+            <Typography variant='h1' fontWeight='bold' fontSize='10rem' color='grey'>
+              01
+            </Typography>
+            <Stack pt={2}>
+              <Typography fontSize='3rem' textTransform='uppercase' fontWeight='bold'>
+                History
+              </Typography>
+
+              <Box
+                width={20}
+                height={20}
+                sx={{ backgroundColor: 'grey' }}
+              />
+            </Stack>
+
+          </Stack>
+
+          <Typography fontWeight='light' sx={{ pl: 6 }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin al
+            maximus est. Nullam purus ex. laculis sed erat sed, blandit tincidunt ouam. Cras scelerisque id quam sed dirnissim
+            Pellentesque urna nunc, gravida cuis nenerent ac, tristique ut quam. vivamus suscipit dignissim tortor nec congu
+          </Typography>
+        </Container>
+
         <Box
           component={'div'}
           sx={{ backgroundImage: "url('/peak.png')", height: '100%', width: '100%' }}
@@ -89,7 +118,27 @@ function App() {
 
       <section id='team'>
         <Container maxWidth='lg' sx={{ height: '200px' }}>
+          <Stack direction='row' alignItems='center' spacing={2}>
+            <Typography variant='h1' fontWeight='bold' fontSize='10rem' color='grey'>
+              02
+            </Typography>
+            <Stack pt={2}>
+              <Typography fontSize='3rem' textTransform='uppercase' fontWeight='bold'>
+                Climb
+              </Typography>
 
+              <Box
+                width={20}
+                height={20}
+                sx={{ backgroundColor: 'grey' }}
+              />
+            </Stack>
+
+            <Typography fontWeight='light' sx={{ pl: 6 }}>
+              Cras scelerisque la quam sed dignissim Pellentesque urna nunc, gravida quis hend
+              tristique ut quam. Vivamus suscipit dignissim tortor nec consue
+            </Typography>
+          </Stack>
         </Container>
 
         <Box sx={{ backgroundColor: 'rgba(64, 79,108, 1)' }}>
